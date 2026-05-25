@@ -11,18 +11,22 @@
     <main>
     
     <section class="hero">
-    <img src="32984995_s.jpg" width="400" alt="プロフィール画像">
+    <img src="32984995_s.jpg" alt="プロフィール画像">
     <div class="hero-text">
     <h1>347SSS</h1>
     <p>Web制作とデザインを学びながら、楽しいWebページづくりに挑戦しています。</p>
   </div>
 </section>
 
-  <nav class="page-nav">
+ <nav class="page-nav">
   <a href="#profile">Profile</a>
   <a href="#skills">Skills</a>
   <a href="#works">Works</a>
   <a href="#contact">Contact</a>
+  <a href="#history">History</a>
+  <a href="#favorite-video">Video</a>
+  <a href="#open-processing">Processing</a>
+  <a href="#twitter-x">X</a>
 </nav>
 
    <section id="profile">
@@ -34,7 +38,7 @@
     </ul>
    </section>
       
-  <section id="Skills">
+  <section id="skills">
     <h2>Skills</h2>
     <table>
       <tr>
@@ -56,7 +60,7 @@
     </table>
   </section>
 
-    <section id="Works">
+    <section id="works">
     <h2>Works</h2>
     <p>これまでに制作したWebページや、学習の中で作成した作品をまとめています。</p>
        <h3>【作った作品】</h3>
@@ -66,7 +70,7 @@
         </ul>
     </section>
     
-  <section id="Contact">
+  <section id="contact">
     <h2>Contact</h2>
     <p>お問い合わせはこちらからお願いします。</p>
     <ul>
@@ -76,7 +80,7 @@
     </ul>
   </section>
 
-    <section id="History">
+    <section id="history">
     <h2>History</h2>
     <p>これまでの学習歴や活動歴をまとめています。</p>
     <table>
@@ -91,20 +95,38 @@
     </table>
     </section>
 
-    <section id="Favorite Video">
-    <h2>Favorite Video</h2>
-    <iframe width="400" height="400" src="https://www.youtube.com/embed/Q8Spq9lWhBA?si=BFOdN_7IGML4kOjB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </section>
+    <!-- Favorite Video (YouTube → 16:9) -->
+<section id="favorite-video">
+  <h2>Favorite Video</h2>
+  <div class="embed embed-16x9">
+    <iframe src="https://www.youtube.com/embed/Q8Spq9lWhBA?si=BFOdN_7IGML4kOjB"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen></iframe>
+  </div>
+</section>
 
-    <section id="Open Processing">
-    <h2>Open Processing</h2>
-    <iframe src="https://openprocessing.org/sketch/2954221/embed/" title="Open Processing作品" width="400" height="400"></iframe>
-    </section>
+<!-- Open Processing (1:1の正方形) -->
+<section id="open-processing">
+  <h2>Open Processing</h2>
+  <div class="embed embed-1x1">
+    <iframe src="https://openprocessing.org/sketch/2954221/embed/"
+            title="Open Processing作品"></iframe>
+  </div>
+</section>
 
-    <section id="Twitter / X">
-    <h2>Twitter / X</h2>
-    <a class="twitter-timeline" data-width="400" data-height="600" href="https://twitter.com/univ_ZEN?ref_src=twsrc%5Etfw">Tweets by univ_ZEN</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    </section>
+<section id="twitter-x">
+  <h2>Twitter / X</h2>
+  <div class="twitter-wrap">
+    <a class="twitter-timeline"
+       data-width="400"
+       data-height="600"
+       href="https://twitter.com/univ_ZEN?ref_src=twsrc%5Etfw">Tweets by univ_ZEN</a>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </div>
+</section>
       
     </main>
   <footer>
