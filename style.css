@@ -87,7 +87,7 @@ img {
   aspect-ratio: 16 / 9;
 }
 .embed-1x1 {
-  max-width: 480px;     /* Processing(正方形なので少し小さめが◎) */
+  max-width: 420px;     /* Processing(正方形なので少し小さめが◎) */
   aspect-ratio: 1 / 1;
 }
 .embed iframe {
