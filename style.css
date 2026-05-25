@@ -77,14 +77,19 @@ img {
 .embed {
   position: relative;
   width: 100%;
-  max-width: 600px;
   margin: 20px auto;
   border-radius: 16px;
   overflow: hidden;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
 }
-.embed-16x9 { aspect-ratio: 16 / 9; }
-.embed-1x1  { aspect-ratio: 1 / 1; }
+.embed-16x9 {
+  max-width: 640px;     /* YouTube */
+  aspect-ratio: 16 / 9;
+}
+.embed-1x1 {
+  max-width: 500px;     /* Processing(正方形なので少し小さめが◎) */
+  aspect-ratio: 1 / 1;
+}
 .embed iframe {
   position: absolute;
   inset: 0;
