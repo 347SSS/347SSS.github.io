@@ -87,7 +87,7 @@ img {
   aspect-ratio: 16 / 9;
 }
 .embed-1x1 {
-  max-width: 500px;     /* Processing(正方形なので少し小さめが◎) */
+  max-width: 400px;     /* Processing(正方形なので少し小さめが◎) */
   aspect-ratio: 1 / 1;
 }
 .embed iframe {
@@ -99,10 +99,20 @@ img {
 }
 
 /* Twitter埋め込み */
-.twitter-wrap {
-  max-width: 400px;
-  margin: 20px auto;
+.x-link {
+  display: inline-block;
+  padding: 12px 28px;
+  background: #000;        /* Xのブランドカラー(黒) */
+  color: #fff !important;
+  border-radius: 999px;
+  font-weight: bold;
+  transition: opacity 0.2s, transform 0.2s;
 }
+.x-link:hover {
+  opacity: 0.85;
+  transform: translateY(-2px);
+}
+
 
 /* --------------------
         リンク
